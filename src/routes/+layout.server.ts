@@ -1,7 +1,6 @@
 import { getAPI } from '$lib/util/api'
 import { DOMAIN, HTTP_ENDPOINT } from '$lib/config'
 import cookie from 'cookie'
-export const prerender = false
 import {
 	stripePublishableKey,
 	id,
