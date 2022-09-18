@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto'
 
 import preprocess from 'svelte-preprocess'
 
@@ -11,7 +11,7 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: adapter({out: '.svelte-kit/cloudflare'}),
+		adapter: adapter()
 	}
 }
 
